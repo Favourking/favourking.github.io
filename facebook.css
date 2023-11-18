@@ -25,6 +25,7 @@ h2 {
 }
 
 .container {
+    border-radius: 12px;
     background-color: white;
     width: 390px;
     height: 300px;
@@ -37,13 +38,27 @@ h2 {
 
 .form {
     float: right;
-    margin-right: 28px;
     margin-top: 20px;
     background-color: white;
-    width: 100% padding: 16px;
+    padding: 20px;
 }
 
 .form input {
+    width: 332px;
+    padding: 17px;
+    margin-top: 10px;
+    margin-right: 28px;
+    margin-left: -10px;
+    border-radius: 8px;
+}
+
+button {
+    margin-top: 15px;
+    background-color: rgb(106, 157, 220);
+    padding: 16px;
     width: 100%;
-    padding: 20px;
+    border-radius: 80x;
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
 }
